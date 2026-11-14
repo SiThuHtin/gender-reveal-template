@@ -26,12 +26,12 @@ const poppins = Poppins({
   display: "swap",
 });
 
-const title = "Phyo & Mon \u2014 Gender Reveal";
+const title = "Sithu & Su \u2014 Gender Reveal";
 const description =
-  "You're invited! Join Phyo & Mon to discover whether their newest little love is a boy or a girl.";
+  "You're invited! Join Sithu & Su to discover whether their newest little love is a boy or a girl.";
 
 export const metadata = {
-  metadataBase: new URL("https://gender-reveal-of-phyo-and-mon.vercel.app"),
+  metadataBase: new URL("https://your-gender-reveal.vercel.app"),
   title,
   description,
   openGraph: {

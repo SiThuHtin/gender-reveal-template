@@ -262,7 +262,7 @@ export default function MusicPlayer() {
                       Tap to Open
                     </p>
                     <p className="mt-3 font-montserrat text-[11px] tracking-wide text-charcoal/55">
-                      ⏰ RSVP Deadline: June 20, 2026
+                      ⏰ RSVP Deadline: March 13, 2027
                     </p>
                   </motion.div>
                 )}

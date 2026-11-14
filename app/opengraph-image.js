@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { eventConfig } from "./components/eventConfig";
 
 export const runtime = "edge";
-export const alt = "Phyo & Mon \u2014 Gender Reveal Invitation";
+export const alt = "Sithu & Su \u2014 Gender Reveal Invitation";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

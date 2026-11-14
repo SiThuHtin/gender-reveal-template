@@ -47,7 +47,7 @@ export default function AdminPage() {
         {/* Header */}
         <div className="text-center mb-10">
           <p className="font-montserrat text-xs tracking-[0.3em] uppercase text-charcoal/50 mb-2">
-            Phyo & Mon · Gender Reveal
+            Sithu & Su · Gender Reveal
           </p>
           <h1 className="font-satisfy text-4xl md:text-6xl text-charcoal mb-2">
             Lucky Draw 🎁

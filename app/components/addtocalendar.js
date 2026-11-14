@@ -32,11 +32,11 @@ const buildICSDataUri = () => {
   const ics = [
     "BEGIN:VCALENDAR",
     "VERSION:2.0",
-    "PRODID:-//Phyo and Mon//Gender Reveal//EN",
+    "PRODID:-//Sithu and Su//Gender Reveal//EN",
     "CALSCALE:GREGORIAN",
     "METHOD:PUBLISH",
     "BEGIN:VEVENT",
-    `UID:gender-reveal-${start.getTime()}@phyo-mon`,
+    `UID:gender-reveal-${start.getTime()}@sithu-su`,
     `DTSTAMP:${formatICSDate(new Date())}`,
     `DTSTART:${formatICSDate(start)}`,
     `DTEND:${formatICSDate(end)}`,
@@ -112,7 +112,7 @@ const AddToCalendar = ({ label = "Add to Calendar" }) => {
             </a>
             <a
               href={buildICSDataUri()}
-              download="phyo-mon-gender-reveal.ics"
+              download="sithu-su-gender-reveal.ics"
               onClick={() => setOpen(false)}
               className="flex items-center gap-3 px-4 py-3 text-charcoal font-montserrat text-sm hover:bg-babyBlue/20 transition-colors border-t border-charcoal/10"
             >
