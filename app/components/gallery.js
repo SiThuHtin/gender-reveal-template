@@ -40,7 +40,7 @@ const GallerySection = () => {
           <div className="relative rounded-[2rem] overflow-hidden shadow-2xl border-[6px] border-white">
             <Image
               src="/photo2.jpg"
-              alt="Phyo & Mon holding their baby's first ultrasound"
+              alt="Baby's first ultrasound illustration"
               width={1335}
               height={907}
               className="w-full h-auto object-cover"
